@@ -1,4 +1,4 @@
-const contacts = [
+let contacts = [
   {
     id: 1,
     name: "Danmilola",
@@ -63,7 +63,7 @@ const contacts = [
 //     <li>${contact.email}</li>
 //     <button onclick="deleteContact(${index})">Delete</button>`;
 //     contactList.appendChild(ul);
-//     return ul;
+//
 //   });
 // };
 
